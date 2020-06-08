@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "set nODE_ENV=test&& jest --runInBand"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "author": "",
   "license": "ISC",
