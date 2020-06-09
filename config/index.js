@@ -19,6 +19,7 @@ switch (ambiente){
         configuracionDeAmbiente = require('./dev')
         break;
     case 'producción':
+    case 'production':
     case 'prod':
         configuracionDeAmbiente = require('./prod');
         break;
